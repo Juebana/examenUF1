@@ -14,6 +14,8 @@ function llegirProductes() {
     }
 }
 
+llegirProductes(); //es necessita deixar aixo aqui per inicialitzar l'objecte de javascript
+
 // Tasca 2
 let producte = productesOBJ[0];
 
@@ -51,7 +53,6 @@ function mostrarProducteID(productes, id) {
 // Tasca 5
 
 console.log('TASCA 1:');
-llegirProductes();
 console.log(productesOBJ);
 
 console.log('\nTASCA 2:');
